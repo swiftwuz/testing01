@@ -1,5 +1,5 @@
 tweet1 = 'hey @_iampapa_ , @wuzcarti said you’re the most handsome person in the world but @kobyq doesn’t agree. what do you think?'
-tweet2 = 'welcome to twitter @nanakojoewusie'
+tweet2 = 'welcome to github @swiftwuz'
 
 def extractUser(tweet):
     handles = []
