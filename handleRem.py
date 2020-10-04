@@ -3,6 +3,7 @@ tweet2 = 'welcome to github @swiftwuz'
 tweet3 = "@breh wag1"
 
 
+# test function
 def extractUser(tweet):
     handles = []
     handle = tweet.split(' ')
