@@ -1,9 +1,6 @@
-tweet1 = 'hey @_iampapa_ , @wuzcarti said you’re the most handsome person in the world but @kobyq doesn’t agree. what do you think?'
-tweet2 = 'welcome to github @swiftwuz'
-tweet3 = "@breh wag1"
+tweet_ = 'welcome to github @swiftwuz'
 
 
-# test function
 def extractUser(tweet):
     handles = []
     handle = tweet.split(' ')
@@ -13,10 +10,4 @@ def extractUser(tweet):
     return handles
 
 
-print(extractUser(tweet1))
-print(extractUser(tweet2))
-print(extractUser(tweet3))
-
-
-def get_user():
-    pass
+print(extractUser(tweet_))
